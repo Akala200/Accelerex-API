@@ -4,7 +4,7 @@ dotenv.config();
 
 const config = {
   MONGODB_DATABASE: process.env.DB_URL_DEV,
-  DB_TEST: process.env.DB_URL_TEST || 'mongodb+srv://user1:1234567890@cluster0.yfm7z.mongodb.net/test?retryWrites=true&w=majority',
+  DB_TEST: process.env.DB_URL_TEST,
   BASE_URL_DEV: process.env.API_PASS,
   BASE_URL_PROD: process.env.API_TIMESTAMP,
   API_USER: process.env.API_USER,
